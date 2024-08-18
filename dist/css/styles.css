@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Small Business v5.0.6 (https://startbootstrap.com/template/small-business)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2024 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
 */
 /*!
@@ -10823,4 +10823,31 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background-color: #110d0e;
+}
+
+.container {
+  color: whitesmoke;
+}
+.container .card {
+  background-color: #110d0e;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+}
+.container .card-body {
+  background-color: #110d0e;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+.btn-primary:hover {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  transform: rotate(25deg);
 }

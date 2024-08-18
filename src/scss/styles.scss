@@ -1,2 +1,33 @@
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
+
+body {
+  background-color: #110d0e;
+}
+
+.container {
+  color: whitesmoke;
+
+    .card {
+        background-color: #110d0e;
+        border: 1px solid #ff0000;
+        border-radius: 10px;
+    }
+
+  .card-body {
+    background-color: #110d0e;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+  }
+}
+
+.btn-primary {
+  background-color: #ff0000;
+  border-color: #ff0000;
+
+    &:hover {
+        background-color: #ff0000;
+        border-color: #ff0000;
+        transform: rotate(25deg);
+    }
+}
